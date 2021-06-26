@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" title="estilos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Health Track</title>
 </head>
+
 <body>
-    
+    <div id="meio" class="caixa">
+        <img src="image/health.png" width="200px">
+        <h1>Cadastro de novos usuários</h1>
+        <h2>Seja bem vindo ao Health Track!</h2>
+        <p>Por favor insira as informações para realizar seu cadastro</p>
+        <div id="form" class="caixa">
+            <h3><legend>Dados pessoais</legend></h3>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome"><br>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade"><br>
+            <label for="genero">Genero:</label>
+            <input list="gender" name="genero">
+            <datalist id="gender">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Gênero neutro">Gênero neutro</option>
+                <option value="Não-binário">Não-binário</option>
+                <option value="Não está listado">Não está listado</option>
+                <option value="Prefiro não dizer">Prefiro não dizer</option>
+            </datalist>
+            <label for="celular">Celular:</label>
+            <input type="text" id="celular"><br>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf"><br>
+            <label for="email">Email</label>
+            <input type="email" id="email"><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha">
+            <label for="confirmacaosenha">Confirme sua senha:</label>
+            <input type="password" id="confirmacaoosenha"><br>
+            <label for="objetivos">Objetivos no Health Track: </label><br>
+            <input type="checkbox" name="objetivos" value="Emagrecer">Emagrecer
+            <input type="checkbox" name="objetivos" value="Saúde mental">Saúde mental
+            <input type="checkbox" name="objetivos" value="Vida equilibrada">Vida equilibrada
+            <input type="checkbox" name="objetivos" value="Alimentação equilibrada">Alimentação equilibrada
+            <input type="checkbox" name="objetivos" value="Condicionamento Físico">Condicionamento Físico<br>
+            <a href="login.html" rel="prev" target="_self"></a><button type="submit" class="btn btnprimary">Cadastrar</button></a>
+        </div>
+    </div>
 </body>
+
 </html>
