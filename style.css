@@ -1,19 +1,48 @@
 *{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    color: #63585E;
 }
 
 body{
     background-image: url('image/background.jpg');
+    height: 100%;
+    width: 100%;
+    transition: opacity 2s;
 }
 
-h1{
-    color: #63585E;
+
+h1, h2, h3, h4{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2, h3{
+h5{
+    color: #998DA0;
+    font-weight: bold;
+}
+
+.btnmenu{
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    opacity:0.95;
+}
+
+.col-md-4{
+    background-color: #998DA0;
+    color: white;
     text-align: center;
+    padding: 20px;
+}
+
+.col-md-8{
+    text-align: center;
+    padding: 20px;
 }
 
 button{
@@ -24,14 +53,15 @@ button{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 
 header, main, footer {
     background-color: #63585E;
-    border: 1px solid #c4e7d4;
-    font-size: 50px;
     padding: 10px 0;
-    text-align: center;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 div#meio {
@@ -44,13 +74,34 @@ div#meio {
     border-radius: 10px;
     margin-left: 100px;
     margin-right: 100px;
+    line-height: 30px;
 }
 
 div#form{
-    text-align: justify;
+    text-align: left;
     background-color:#998DA0;
     border-radius: 10px;
     padding: 30px;
-    line-height: 30px;
 }
+
+
+div#login{
+    text-align: center;
+    background-color:#998DA0;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 30px;
+    height: 50%;
+    margin: auto;
+    width: 50%;
+    opacity: 0.9;
+}
+
+#textboxid{
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 
