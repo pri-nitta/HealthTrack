@@ -7,17 +7,29 @@
     <link rel="stylesheet" type="text/css" href="style.css" title="estilos">
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Cadastro Health Track</title>
 </head>
 
 <body>
-    <div id="meio" class="caixa">
-        <img src="image/health.png" width="200px">
-        <h1>Cadastro de novos usuários</h1>
-        <h2>Seja bem vindo ao Health Track!</h2>
-        <p>Por favor insira as informações para realizar seu cadastro</p>
-        <div id="form" class="caixa">
-            <h3><legend>Dados pessoais</legend></h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="image/health.png" height="100px">
+            </div>
+            <div class="col-sm-8">
+                <h2>CADASTRO DE NOVOS USUÁRIOS</h2>
+                <h4>Seja bem vindo ao Health Track!</h4>
+            </div>
+        </div>
+        <div class="form">
+            <div class="desc">
+                Por favor insira as informações para realizar seu cadastro
+            </div>
             <label for="nome">Nome:</label>
             <input type="text" id="textboxid">
             <label for="sobrenome">Sobrenome:</label>
@@ -33,7 +45,7 @@
                 <option value="Não-binário">Não-binário</option>
                 <option value="Não está listado">Não está listado</option>
                 <option value="Prefiro não dizer">Prefiro não dizer</option>
-            </datalist>
+            </datalist><br>
             <label for="celular">Celular:</label>
             <input type="text" id="textboxid"><br>
             <label for="cpf">CPF:</label>
@@ -50,7 +62,7 @@
             <input type="checkbox" name="objetivos" value="Vida equilibrada">Vida equilibrada
             <input type="checkbox" name="objetivos" value="Alimentação equilibrada">Alimentação equilibrada
             <input type="checkbox" name="objetivos" value="Condicionamento Físico">Condicionamento Físico<br>
-            <a href="index.html" rel="next" target="_self"><button type="submit" class="btn btnprimary">Cadastrar</button></a>
+            <a href="index.html" rel="next" target="_self"><button type="submit">Cadastrar</button></a>
         </div>
     </div>
 </body>
