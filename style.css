@@ -48,6 +48,13 @@ h4{
   padding-right: 20px;
 }
 
+.col-sm-3{
+    text-align:left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .form{
     margin-top: 40px;
     background-color:#998DA0;
@@ -60,9 +67,8 @@ h4{
     text-align: center;
     background-color: white;
     border-radius: 10px;
-    opacity:0.8;   
-    padding-top: 20px;
-    padding-bottom: 20px;
+    opacity:0.9;   
+    padding: 20px;
     position: absolute;
     height: fit-content;
     width: 70%;
@@ -120,7 +126,6 @@ header, footer {
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    display: flex;
     border: 2px dashed #000000;
     margin-bottom: 20px;
 }
@@ -133,3 +138,13 @@ div#login{
     margin: 0 auto;
     position: relative;
 }
+
+.bi::before {
+    display: inline-block;
+    content: "";
+    vertical-align: -.125em;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+}
+
