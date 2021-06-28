@@ -2,7 +2,6 @@
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 body{
@@ -17,10 +16,24 @@ h5{
     font-weight: bold;
 }
 
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.textboxid{
+    border-radius: 10px;
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 .btnmenu{
+    background-color:#c4e7d4;
     border-radius: 20px;
     width: 90%;
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .inputlogin{
@@ -30,7 +43,21 @@ h5{
     padding: 10px;
 }
 
+.col-sm-5{
+  text-align: right;
+  padding-right: 20px;
+}
+
+.form{
+    margin-top: 40px;
+    background-color:#998DA0;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 .containerlogin{
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     opacity:0.8;   
@@ -38,6 +65,7 @@ h5{
     padding-bottom: 20px;
     position: absolute;
     height: fit-content;
+    width: 70%;
     top:0;
     bottom: 0;
     left: 0;
@@ -46,6 +74,7 @@ h5{
 }
 
 .container{
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     opacity:0.9;   
@@ -56,72 +85,51 @@ h5{
     margin: auto;
 }
 
-.col-md-4{
+.col-4{
     background-color: #998DA0;
     color: white;
-    text-align: center;
-    padding: 20px;
+    height: 900px;
+    flex: inherit;
+    max-height: 100%;
+    padding: 30px;
 }
 
-.col-md-8{
-    padding: 20px;
+.col-8{
+    padding-top: 20px;
+    max-height: 100%;
+    height: 100%;
 }
 
-button{
-    background-color:#c4e7d4;
-    font-weight: bold;
-    border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-}
-
-header, main, footer {
+header, footer {
     background-color: #63585E;
     padding: 10px 0;
     color: white;
-    padding-left: 150px;
-    padding-right: 150px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.news{
+    padding:20px;
+    text-align: left;
 }
 
 .desc{
     background-color: #63585E;
     color: white;
-    height: fit-content;
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: flex;
-    align-items: center;
-  justify-content: center;
-    text-align: center;
-    vertical-align: middle;
     border: 2px dashed #000000;
+    margin-bottom: 20px;
 }
-
-
-.form{
-    margin-top: 50px;
-    text-align: left;
-    background-color:#998DA0;
-    border-radius: 10px;
-}
-
 
 div#login{
     align-items: center;
     padding: 20px;
-    width: 50%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     position: relative;
 }
-
-#textboxid{
-    width: 80%;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-

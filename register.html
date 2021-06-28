@@ -30,40 +30,65 @@
             <div class="desc">
                 Por favor insira as informações para realizar seu cadastro
             </div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="textboxid">
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" id="textboxid"><br>
-            <label for="idade">Idade:</label>
-            <input type="number" id="textboxid"><br>
-            <label for="genero">Genero:</label>
-            <input list="gender" name="genero" id="textboxid">
-            <datalist id="gender">
-                <option value="Feminino">Feminino</option>
-                <option value="Masculino">Masculino</option>
-                <option value="Gênero neutro">Gênero neutro</option>
-                <option value="Não-binário">Não-binário</option>
-                <option value="Não está listado">Não está listado</option>
-                <option value="Prefiro não dizer">Prefiro não dizer</option>
-            </datalist><br>
-            <label for="celular">Celular:</label>
-            <input type="text" id="textboxid"><br>
-            <label for="cpf">CPF:</label>
-            <input type="text" id="textboxid"><br>
-            <label for="email">Email</label>
-            <input type="email" id="textboxid"><br>
-            <label for="senha">Senha:</label>
-            <input type="password" id="textboxid">
-            <label for="confirmacaosenha">Confirme sua senha:</label>
-            <input type="password" id="textboxid"><br>
-            <h3><label for="objetivos">Objetivos no Health Track: </label><br></h3>
-            <input type="checkbox" name="objetivos" value="Emagrecer">Emagrecer
-            <input type="checkbox" name="objetivos" value="Saúde mental">Saúde mental
-            <input type="checkbox" name="objetivos" value="Vida equilibrada">Vida equilibrada
-            <input type="checkbox" name="objetivos" value="Alimentação equilibrada">Alimentação equilibrada
-            <input type="checkbox" name="objetivos" value="Condicionamento Físico">Condicionamento Físico<br>
-            <a href="index.html" rel="next" target="_self"><button type="submit">Cadastrar</button></a>
+            <div class="row">
+                <div class="col-sm-5">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="textboxid"><br>
+                    <label for="idade">Idade:</label>
+                    <input type="number" class="textboxid"><br>
+                    <label for="celular">Celular:</label>
+                    <input type="text" class="textboxid"><br>
+                    <label for="email">Email</label>
+                    <input type="email" class="textboxid"><br>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" class="textboxid"><br>
+                    <label for="genero">Gênero:</label>
+                    <input list="gender" name="genero" class="textboxid">
+                    <datalist id="gender">
+                        <option value="Feminino">Feminino</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Gênero neutro">Gênero neutro</option>
+                        <option value="Não-binário">Não-binário</option>
+                        <option value="Não está listado">Não está listado</option>
+                        <option value="Prefiro não dizer">Prefiro não dizer</option>
+                    </datalist><br>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" class="textboxid"><br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" class="textboxid">
+                </div>
+                      <div class="col-sm-1"></div>
+            </div>
         </div>
+
+        <div class="form">
+            <div class="desc">
+                <label for="objetivos"></label>Objetivos no Health Track: </label>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <input type="checkbox" name="objetivos" value="Emagrecer">Emagrecer
+                </div>
+                <div class="col-sm">
+                    <input type="checkbox" name="objetivos" value="Saúde mental">Saúde mental
+                </div>
+                <div class="col-sm">
+                    <input type="checkbox" name="objetivos" value="Vida equilibrada">Vida equilibrada
+                </div>
+                <div class="col-sm">
+                    <input type="checkbox" name="objetivos" value="Alimentação equilibrada">Alimentação equilibrada
+                </div>
+                <div class="col-sm">
+                    <input type="checkbox" name="objetivos" value="Condicionamento Físico">Condicionamento Físico
+                </div>
+            </div>
+        </div>
+        <br>
+        <a href="index.html" rel="next" target="_self"><button type="submit" class="btnmenu">Começar a ter uma vida mais saudável!</button></a>
+    </div>
     </div>
 </body>
 
